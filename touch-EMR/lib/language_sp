@@ -1,0 +1,852 @@
+@SETTINGMYSQL
+HOST=Anfitrión:
+PORT=Puerto:
+DATABASE=Base de datos:
+PASSWORD=Contraseña:
+USERNAME=Nombre de usuario:
+
+@ONLINESTATE
+WARNING=¡Atención! Repita para iniciar sesión.
+
+@MAIN
+MAIN=Principal
+REGISTRA=Registra
+DOCTOR=Médico
+ANAMNESIS=Anamnesia
+PERSONAL=Personal de administración
+PHARMACY=Farmacia
+MANAGEMENT=Sistema de Gestión
+PERMISSION=Permiso
+MEDICINE_STOCK=Colección de Medicina
+MEDICAL HISTORYT=Historial médico
+POSITION_MANAGEMENT=Gerencia
+DEPARTMENT_MANAGEMENT=Departamento de Administración
+SHIFT_MANAGEMENT=Cambio de gestión
+STAFF_MANAGEMENT=Personal y la Administración
+ANAMNESIS_RETURN=Anamnesis Volver
+ANAMNESIS_MANAGEMENT=Anamnesis Gestión
+PATIENT_INFORMATION=Información para el Paciente
+DIAGNOSIS=Diagnóstico
+REGISTRATION=Registro
+REVIEW=Revisión
+EXIT=Salida
+LABORATORY=Laboratorio
+INVESTGATIONS=Investgations
+RADIOLOGY(X-RAY)=X-RAY
+
+@RADIOLOGY
+NO=No
+DATEOFINVESFIGATION=Fecha de Invesfigation
+NAMEOFINVESFIGATION=Nombre del Invesfigation
+RESULTSCOLLECTIONDATE=Resultados de la fecha de recogida
+COST=costo
+INVESFIGATIONDATE=invesfigation_date
+INVESFIGATIONNAME=invesfigation_name
+DATERESULTS=date_results
+DELETE=Borrar
+EDIT=Editar
+ADD=Añadir
+PATIENTNO=Paciente N º:
+PATIENTNAME=Nombre del paciente:
+DATEOFINVESFIGATION=Fecha de Invesfigation:
+NAMEOFTEST=Nombre del examen:
+RESULTSCOLLECTIONDATE=Resultados de la fecha límite de presentación:
+COST=Costo
+TITLERADIOLOGY=Radiología
+TITLERADIOLOGYPATIENTSSEARCH=Radiología - Pacientes de la búsqueda
+
+@REGISTRATION
+TITLEPNO=El cuadro de ID:
+TITLENHISNO=NHIS n:
+TITLENIANO=NIA no:
+TITLEID=Número de ID:
+TITLEFIRSTNAME=Nombre:
+TITLELASTNAME=Apellido:
+TITLEBIRTHDAY=Fecha de nacimiento:
+TITLEAGE=Edad:
+TITLEGENDER=Género:
+TITLEBLOODTYPE=Sangre:
+TITLEHEIGHT=Altura:
+TITLEWEIGHT=Peso:
+TITLEVISITS=Registrado Método:
+TITLESHIFTDATE=Fecha:
+TITLEPOLICLINIC=Departamento:
+TITLESHIFT=Turno:
+TITLEDOCTORNAME=Doctor:
+TITLEROOM=Nombre de la sala:
+TITLEWAITNO=Lugar n:
+TITLESEARCHDOCTORS=Médicos:
+TITLESEARCHPATIENT=Paciente:
+PATIENTNAME=Nombre del paciente:
+DATE=Fecha:
+CANCELREGISTRATION=Cancelar registro
+CANCEL=Cancelar
+NEWPATIENT=Añadir Paciente
+SAVE=Registro
+FINGERPRINTSEARCH=Buscar ...
+REGISTEREDLIST=Aquí la lista
+REISTER=Localidad
+PATIENTLIST=Lista de pacientes
+REGISTRATIONRECORD=Registro Registro
+PORT=Puerto
+GPSADDRESS=GPS de direcciones
+COUNTRY=País
+STATE=Estado
+TOWN=Ciudad
+DEFAULT=Defecto
+READ=Leer
+SAVEGIS=Guardar
+DOCTORLIST=Doctor Lista
+PATIENTLIST=Lista de pacientes
+REGISTRATIONRECORD=Registro Registro
+COL_PATIENTNO=Paciente NO
+COL_NAME=Nombre
+COL_GENDER=Género
+COL_AGE=Edad
+COL_BLOODTYPE=Tipo de Sangre
+COL_PNO=PNO
+COL_NAME=Nombre
+COL_POLICLINIC=Policlínica
+COL_DOCTOR=Médico
+COL_SHIFT=Cambio
+TITLEREQISTRATION=Registro
+TITLGPSINFORMATION=Información del GPS
+ALL=Todos
+MORNING=Mañana
+AFTERNOON=Tarde
+NIGHT=Noche
+RESERVATION=Reserva
+LOCALITY=Localidad
+
+@EMPLOYEE
+PERSONAL=Personal
+CONTACTDETAILS=Datos de contacto
+FAMILYINFORMATION=Información de la Familia
+SPOUSE=Cónyuge
+CHILDREN=Niños
+NEXTOFKIN=Pariente más cercano
+FINGERPRINT=Huella dactilar
+STAFFNO=Personal No.:
+HSSNO=FSS NO. :
+SOCIALSECURITYNO=Numero de Seguro Social:
+NATIONALID=DNI:
+NHISNO=ENS N º:
+PASSPORTNO=Pasaporte N º:
+USERID=ID de usuario:
+PASSWORD=Contraseña:
+CONFIRMATION=Confirmación:
+FIRSTNAME=Nombre:
+SEX=Sexo:
+DATAOFBIRTH=Fecha de nacimiento:
+MARITALSTATUS=Estado civil:
+DISABILITYDESCRIPITION=Discapacidad Descripción:
+LASTNAME=Apellido:
+BLOODRH=Sangre / RH:
+PLACEOFBIRTH=Lugar de nacimiento:
+DISABILITYSTAUSE=Del estado de discapacidad:
+CANCLE=Cancle
+RESIDENTIALADDRESS=Dirección Residencial:
+POSTALADDRESS=Dirección Postal:
+PHONENUMBER=Número de teléfono:
+CELLPHONENUMBER=Número de móvil:
+EMAIL=E - Mail:
+PERSONALWEBSITE=Página web personal:
+FIRSTNAMEOFSPOUSE=Nombre del cónyuge:
+LANSTNAMEOFSPOUSE=Apellido del cónyuge:
+SPOUSESDATAOFBIRTH=Esposo de la fecha de nacimiento:
+SPOUSESNHISNO=Cónyuge NHIS No.:
+STAFFTYPE=Personal Tipo:
+STAFFCATEGORY=Personal Categoría:
+FULLNAME=Nombre y apellidos:
+ADD=Añadir
+DELETE=Borrar
+EMPLOYEEINFORMATION=Información del empleado
+UPDATASTAFFPOSITION=Updata Posición Personal
+RENAME=Cambiar el nombre de
+NEWSTAFFNO=Nuevo personal NO.
+EDITSTAFFNO=Edición Personal NO.
+SINGLE=Solo
+MARRIED=Casado
+NO=No
+YES=Sí
+ENROLL=Inscribirse
+JUNIORSTAFF1=Personal Subalterno 1
+JUNIORSTAFF2=Personal Subalterno 2
+SENIORSTAFF=Personal Superior
+PERMANENT=Permanente
+CONTRACT=Contrato
+TRAININGATTACHMENT=Capacitación / Anexo
+SUPPORT=Apoyo
+NATIONALYOUTHEMPLOYEE=Nacional de Empleados de la Juventud
+CASUALWORKER=Casual trabajador
+HOUSEJOB1=Cámara de Trabajo 1
+HOUSEJOB2=Cámara de Trabajo 2
+
+@LOGIN
+ID=ID:
+PASSWD=Contraseña:
+LOGIN=Login
+WELCOME=Bienvenida
+LOGINFAILED=Error al iniciar sesión.
+
+@PERMISSIONNEWDATA
+GROUPNAME=Permiso Nombre
+
+@PERMISSIONINFO
+NEWLIMIT=Añadir
+BACK=Espalda
+UPDATE=Editar
+DELETEGROUP=Borrar
+GROUP=Los permisos de grupo
+SYSTEM=Sistema
+LNQUIRY=Lnquiry
+ADD=Añadir
+DELETE=Borrar
+ALL=Todos
+SAVE=Guardar
+CLOSE=Cerrar
+GROUPNAME=Nombre del Grupo:
+TITLEPERMISSION=Permiso
+TITLEADDPERMISSION=Añadir permiso
+
+@PHARMACY
+USERNAME=Usuario
+FOLLOW=Las últimas Siga
+FINISH=Número de personas
+INQUIREMEDICINE=Se utiliza la medicina
+SEARCH=Historia Registro
+REPRINT=Reimpresión
+TITLEPHARMACY=Farmacia
+NO=No.
+PATIENTNO=Paciente número
+NAME=Nombre
+BIRTH=Nacimiento
+GENDER=Género
+PS=PD
+DOCTOR=Médico
+BLOOD=Sangre
+TIME=Tiempo
+
+@PHARMACYINFO
+TITLENO=ID:
+TITLENAME=Nombre:
+TITLESEX=Género:
+TITLEBLOODTYPE=Tipo de sangre:
+TITLEAGE=Nacimiento:
+DOCTOR=Doctor:
+DEPARTMENT=De Departamento:
+TITLEPS=PS:
+CODE=Código
+NAME=Nombre
+DOSAGE=Dosis
+UNIT=Unidad
+USAGE=Uso
+WAY=Manera
+DAY=Día
+QUANTITY=Cantidad
+URGENT=Urgente
+POWDER=Polvo
+PS=PD
+TITLEMEDICINEINFORMATION=Información Medicina
+
+@PHARMACYINQUIRE
+TITLEHISTORYRECORD=Historia Registro
+MORNING=Mañana
+NOON=Mediodía
+AFTERNOON=Tarde
+NO=No.
+NAME=Nombre
+BIRTH=Nacimiento
+GENDER=Género
+PS=PD
+POLI=Poli
+DOCTOR=Médico
+BLOOD=Sangre
+TIME=Tiempo
+
+@PHARMACYINQUIREMEDICINE
+TOTAL=Cantidad Total
+LABEL=Medicina:
+TITLEUSEDMEDICINE=Se utiliza la medicina
+DATE=Fecha
+MEDICINE=Medicina
+DOCTOR=Médico
+PATIENT=Paciente
+QUANTITY=Cantidad
+
+@CHECK
+DATA=Los datos obtenidos
+
+@PATIENTMOD
+TITLENO=Paciente N º:
+TITLEFIRSTNAME=Nombre:
+TITLELASTNAME=Apellido:
+TITLEID=DNI:
+TITLEGENDER=Género:
+TITLEBIRTH=Fecha de nacimiento:
+TITLEBLOODTYPE=Sangre / RH:
+TITLEHEIGHT=Altura:
+TITLEWEIGHT=Peso:
+DEAL=Muerto
+BUTTON2=Diagnóstico
+BUTTON1=Alergia
+TITLEEMEFIRSTNAME=Nombre:
+TITLEEMELASTNAME=Apellido:
+TITLEEMERELATION=Releation:
+TITLEEMECPTOWN=Ciudad:
+TITLEEMEADDRESS=Dirección:
+TITLEEMEPHONE=Teléfono:
+TITLEEMESTATE=Estado:
+TITLEEMECOUNTRY=País:
+TITLEPHONE1=Phone1:
+TITLEPHONE2=PHONE2:
+TITLETOWN=Población:
+TITLESTATE=Estado:
+COUNTRY=País:
+TITLEADDRESS=Dirección:
+PS=PD
+ENROLL=Inscribirse
+OK=Guardar
+CANCEL=Cancelar
+RIGHT=Persona de contacto
+LEFT=Información para el Paciente
+PANEL=Huella dactilar
+DEATHTIME=Muerte de tiempo:
+NHISNO=ENS N º:
+NIANO=NIA N º:
+PLACEOFBIRTH=Lugar de nacimiento:
+MARITALSTATUS=Estado civil:
+OCCUPATION=Ocupación:
+TRIBE=Tribu:
+RELIGION=Religión:
+LANGUAGE=Idioma:
+PATIENTINFRMATION=Paciente Infrmation
+CONTRACTPERSON=Contrato Persona
+TITLENEWPATIENT=Nuevos Pacientes
+NEWPATIENTDATA=Nuevos datos del paciente
+EDITPATIENTDATA=Editar datos de pacientes
+MARRIED=Casado
+DIVORCED=Divorciado
+SINGLE=Solo
+OTHER=Otro
+
+@PATIENTSLIST
+ADD=Añadir
+EDIT=Detalles
+DELETE=Borrar
+TITLELABORATORYPATIENTSSEARCH=Laboratorio - Los pacientes de la búsqueda
+TITLEPATIENTLIST=Lista de pacientes
+FINGERPRINTSEARCH=Buscar ...
+ITTOOK=Tomó
+NOTFOUND=No se ha encontrado.
+ALL=Todos
+NAME=Nombre
+BIRTH=Nacimiento
+IDNO=ID No.
+PHONE=Teléfono
+TOWN=Ciudad
+ADDRESS=Dirección
+COL_NO=No
+COL_NAME=Nombre
+COL_BIRTH=Nacimiento
+COL_PHONE=Teléfono
+COL_CELLPHONE=Cell Phone
+COL_TOWN=Ciudad
+COL_ADDRESS=Dirección
+NO=NO.
+NHISNO=NHIS NO.
+NIANO=NIA NO.
+PHONE=Teléfono
+MESSAGE=Mensaje
+PLEASESEARCHPATIENTDATA=Por favor, Búsqueda de datos del paciente.
+ENTER=Entrar
+NOINFORMATION=Sin información
+
+@ANAMNESIS
+TITLEMEDICALHISTORY=Historial médico
+LABEL=Usuario:
+POLICLINIC=Departamento:
+POLIROOM=Nombre de la sala:
+LEAVE=Cerrar
+BORROWSAVE=Pedir prestado
+RETURNSAVE=Volver
+CHATID=Chat ID
+BIRTH=Nacimiento
+ROOMSNAME=Nombre de la habitación
+SHIFT=Cambio
+NAME=Nombre
+DEPARTMENT=Departamento
+DOCTOR=Médico
+CHECK=Verificación
+
+@LEAVE
+ENTITLEMENT=Derechos:
+TYPE=Tipo:
+STARTDATE=Fecha de inicio:
+ENDDATE=Fecha de finalización:
+NUMBEROFDAYSTAKEN=Número de días:
+NUMBEROFDAYSREMAINING=Número de días que quedan:
+LEAVEEDITSTAFFNO6=Deja (Edición Personal N º 6)
+21WORKINGDAYS=21 días de trabajo / año (junior Personal 1)
+28WORKINGDAYS=28 días de trabajo / año (junior Personal 2)
+36WORKINGDAYS=36 días de trabajo / año (personal directivo)
+STUDYLEAVEWITHPAY=Estudio de licencia con sueldo
+STUDYLEAVEWITHOUTPAY=Estudio de licencia sin sueldo
+LEAVEWITHPAY=Deja con goce de sueldo
+MATERNITYLEAVE=Licencia de maternidad
+PATERNITYLEAVE=La licencia de paternidad
+LEAVEWITHOUTPAY=Deja sin goce de sueldo
+
+@SHIFTWORKINFO
+POLICLINIC=Departamento:
+POLROOM=Habitaciones:
+YEAR=Año:
+MONTH=Mes:
+RELOAD=Vuelva a leer
+MON=Lun
+TUE=Mar
+WED=Casarse
+THU=Jue
+FRI=Vie
+SAT=Sáb
+SUN=Sol
+WEEK=Semana
+DATE=Fecha
+MORNING=Mañana
+NOON=Mediodía
+NIGHT=Noche
+ALLNIGHT=Toda la Noche
+TITLESHIFTWORK=Jornada de trabajo
+
+@ADDMOD
+LEAVE=Cancelar
+POSSAVE=Añadir
+DEPSAVE=Añadir
+NEWDEPARTMENTNAME=Nuevo Nombre del Departamento:
+NEWPOSITIONNAME=Nuevo Nombre Cargo:
+NEWSTAFF=Nuevo personal
+
+@ADMINISTRATIVE
+EMPNAME=Nombre del empleador:
+EMPPOSITION=ubicación:
+EMPCOMMENCEMENTDATE=Fecha de comienzo:
+EMPLEAVINGDATE=Fecha de salida:
+EMPHISTORYADD=Añadir
+EMPHISTORYDELETE=Borrar
+NO=No
+NAMEOFEMPLOYER=Nombre del empleador
+POSITION=posición
+COMMENCEMENTDATE=Fecha de comienzo
+LEAVINGDATE=Fecha de salida
+EMPLOYERNAME=employer_name
+POSITION=posición
+COMMENCEMENTDATE=commencement_date
+LEAVINGDATE=leaving_date
+ADMINISTRATIVEPROFILE=Perfil Administrativo
+NEWSTAFFNO=Nuevo Personal No.
+EDITSTAFFNO=Edición Personal No.
+
+@DEPARTMENT
+DEPNEWDATA=Añadir
+DEPUPDATE=Editar nombre
+STAFFDEPUPDATA=Editar Departamento
+DEPDEL= Nombre Eliminar
+DEPARTMENT=Departamento
+TITLESTAFFPOSITION=Posición Personal
+POSITIONNAME=Posición Nombre
+MESSAGE=Mensaje
+NOFORMATION=Sin información.
+DEPARTMENTNAME=Nombre del departamento
+
+@DEPARTMENTADD
+ORIGINALDEP=Departamento
+CHANGEDEP=Departamento
+LEAVE=Cerrar
+ADDSTAFFDEPARTMENT=Añadir Departamento de Personal
+
+@POSITION
+DEPNEWDATA=Añadir
+DEPUPDATE=Editar nombre
+STAFFDEPUPDATA=Editar Departamento
+DEPDEL= Nombre Eliminar
+
+@POSITIONADD
+ORIGINALDEP=Título del Puesto:
+CHANGEDEP=Título del Puesto:
+LEAVE=Dejar
+ADDSTAFFPOSITION=Personal Añadir Posición
+
+@TRAINING
+TITLETRAININGEDITSTAFFNO6=Formación (Edición Personal N º 6))
+TYPE=Tipo:
+SPONSORSHIP=Patrocinio:
+NAMEOFINSTITUTION=Nombre de la institución:
+STARTDATE=Fecha de inicio:
+ENDDATE=Fecha de finalización:
+COURSENAME=Nombre del Curso:
+EXPECTEDQUALIFICATION=cualificación previsto:
+COUNTRY=País:
+COMMITMENT=Compromiso:
+RESUMPTIONDATE=Reanudación Fecha:
+PRESERVICE=Pre-Servicio
+INSERVICE=En servicio
+POSTBASIC=Post Básica
+SELFSPONSORED=Auto-patrocinado
+KBTHSPONSORED=KBTH patrocinado
+PARTTIME=A tiempo parcial
+FULLTIME=Jornada completa
+
+@HRM
+HRMSYSTEM=Gestión de recursos humanos del sistema
+EMPLOYEEINFORMATION=Información del empleado
+EDUCATIONALPROFILE=Educación perfil
+WORKJOBPROFILE=Trabajo (Job) Perfil
+ADMINISTRATIVEPROFILE=Perfil Administrativo
+TRAINING=Formación
+LEAVE=Dejar
+BACK=Espalda
+NEWSTAFFNO=Nuevo Personal No.
+EDITSTAFFNO=Edición Personal No.
+
+@STAFFCHANGE
+NOTITLE=ID NO.
+FIRSTNAME=Nombre:
+IDNUM=Número de ID:
+BIRTH=Fecha de nacimiento:
+GROUP=Grupo:
+POLI=Clínica:
+ACCOUNT=ID de usuario:
+PASSWORD=Passwd:
+CHECKPASSWORD=Confirmación:
+PHONE1=Phone1:
+PHONE2=PHONE2:
+TOWN=Ciudad:
+STATE=Estado:
+ADDRESS=Dirección:
+LASTNAME=Apellidos:
+GENDER=Género:
+DEPARMENT=Departamento:
+POSITION=Título:
+ADDSAVE=Añadir
+UPDATE=Actualización
+UPDATESAVE=Guardar
+
+@STAFFINFO
+STAFFINFOMATION=Información sobre el personal
+GENERALADD=Añadir
+GENERALEDIT=Detalles
+GENERALDELETE=Borrar
+GENERALBACK=Cerrar
+GENERAL=General
+DOCTOR=Médico
+NO=No
+NAME=Nombre
+BIRTH=Nacimiento
+PHONE=Teléfono
+CELLPHONE=Teléfono celular
+ADDRESS=Dirección
+DEPNAME=Dep. Nombre
+WILLITBEDELETENO=¿Será No. Hay que suprimir:
+SEARCH=Buscar ...
+ITTOOK=Tomó
+NOTFOUND=No se ha encontrado.
+ALL=Todos
+NEWSTAFFNO=Nuevo Personal No.
+EDITSTAFFNO=Edición Personal No.
+
+@EDUCATIONAL
+ACADEMICRECORDINSTITUTIONATTENDED=Nombre de la institución asistió a:
+ACADEMICRECORDCOMMENCEMENTDATE=Fecha de comienzo:
+ACADEMICRECORDCOMPLETIONDATE=Fecha de finalización:
+ACADEMICRECORDQUALIFICATIONATTAINED=Calificación alcanzado:
+ACADEMICRECORDADD=Añadir
+ACADEMICRECORDDELETE=Borrar
+CANCEL=Cancle
+EDUCATIONALPROFILEEDITSTAFFNO6=Perfil de la Educación (Edición Personal N º 6)
+NO=NO
+NAMEOFINSTITUTIONATTENDED=Nombre del centro al que asistió
+COMMENCEMENT=Fecha de comienzo
+COMPLETIONDATE=Fecha de finalización
+QUALIFICATIONATTAINED=Calificación alcanzado
+NAME=Nombre
+COMMENCEMENTDATE=commencement_date
+COMPLETIONDATE=completion_date
+QUALIFICATION=calificación
+NOINFORMATION=Sin información.
+
+@MEDICINESTOCKPURCHASE
+MEDICINENAME=Medicina:
+DATE=Fecha:
+COMPANY=Empresa:
+QUANTITY=Cantidad:
+PRICE=Precio:
+DELETE=Borrar
+ADD=Añadir
+SEND=Enviar
+MEDICINE=Medicina
+DRUGGIST=Boticario
+QUANTITY=Cantidad
+DATE=Fecha
+PRICE=Precio
+TITLEMEDICINEPURCHASE=Medicina de compra
+
+@MEDICINESTOCKPURCHASELIST
+QUANTITY=Cantidad:
+COAST=Costo:
+
+@MIDICINESTOCKINFO
+PURCHASE=Compra
+MORE=Más
+TITLEPURCHASELIST=Lista de Compra
+
+@DIAGNOSISALLERGY
+TITLENO=El cuadro de ID:
+TITLENAME=Nombre:
+NEW=Añadir
+ADD=Añadir
+BACK=Espalda
+TITLEALLERQY=Alergia
+LEVEL=Nivel
+MEDICINE=Medicina
+SLIGHT=Leve
+GENERAL=General
+SERIOUS=Grave
+DELETE=Borrar
+
+@DIAGNOSISWORKLIST
+PRINT=Imprimir
+NAME=Doctor:
+WAIT=Esperar:
+POLI=Departamento:
+FINISH=Final:
+COL_NO=NO.
+COL_REGISTER=registro
+COL_FIRST=Primero
+COL_VISITS=Visitas
+COL_REGTIME=Reg. tiempo
+COL_PATIENTNO=Paciente número
+COL_NAME=Nombre
+COL_BIRTH=Nacimiento
+COL_GENDER=Género
+COL_BLOOD=Sangre
+COL_PS=PD
+TITLEWORKLIST=Lista de trabajos
+EDIT=Editar
+ENTER=Entrar
+
+@DIAGNOSISTHERAPY
+THERAPY=Diagnóstico
+TITLETHERAPY=Terapia
+FILE=Expediente
+ICDCODE=Código ICD
+NAME=Nombre
+VERSION=Versión: CIE 10
+
+@DIAGNOSISPRESRIPTION
+THERAPY=Prescripción
+VERSION=Versión: PRUEBA
+CODE=Código
+TREATMENT=Tratamiento
+
+@DIAGNOSISMEDICINE
+THERAPY=Medicina
+TITLEMEDICINE=Medicina
+TITLEPRESCRIPTION=Prescripción
+ITEM=Artículo
+INJECTION=Inyección
+BACK=Cerrar
+VISION=Versión: PRUEBA
+GENERAL=General
+
+@DIAGNOSISDIAGNOSTIC
+TITLENO=El cuadro de ID:
+TITLENAME=Nombre:
+POLICLINIC=Departamento:
+PS=PD
+INSERT=Sacar
+TITLEDIAGNOSTIC=Diagnóstico
+DATE=Fecha
+SHIFT=Cambio
+DEPARTMENT=Departamento
+NAME=Nombre
+ICDCODE=Código ICD
+CODE=Código
+MEDICINE=Medicina
+SUBUSAGE=Sub Uso
+UNIT=Unidad
+WAY=Manera
+ROUTE=Ruta
+DAY=Día
+QUANTITY=Cantidad
+URGENT=Urgente
+POWDER=Polvo
+PS=PD
+
+@DIAGNOSISINFO
+TITLEDIAQNOSISINFO=DiagnosisInfo
+TITLENO=El cuadro de ID:
+TITLENAME=Nombre:
+HEIGHT=Altura:
+TITLEPS=PD
+TITLESEX=Género:
+TITLEAGE=Edad:
+TITLEBLOODTYPE=Tipo de sangre:
+WEIGHT=Peso:
+PS=PD
+MEDICALRECORDSUMMARY=Resumen Médico
+DIAGNSIS=Diagnóstico
+MEDICINE=Medicina
+PRESCRIPTION=Prescripción
+CODE=Código
+DIAGNOSIS=Diagnóstico
+TREATMENT=Tratamiento
+PLACE=Lugar
+MEDICINE=Medicina
+NAME=Nombre
+SUBUSAGE=Sub uso
+UNIT=Unidad
+FREG=Freg
+ROUTE=Ruta
+DAY=Día
+QUANTITLY=Cantidad
+URGENT=Urgente
+POWDER=Psdsd
+DIAGNOSIS=Diagnóstico Código
+PRESCRIPTIONCODE=Prescripción Código
+MEDICINECODE=Medicina Código
+CASEHISTORY=Historia de un caso
+ALLERGY=Alergia a un medicamento
+SEND=Enviar
+FILE=Expediente
+DIAGNOSISCODE=Diagnóstico Código
+MEDICINECODE=Medicina Código
+CASEHISTORY=Historia de un caso
+DRUGALLERGY=Alergia a un medicamento
+SEND=Enviar
+BACK=Espalda
+EDIT=Editar
+FOCUDSUMMARY=Resumen de enfoque
+FOCUSDIAGNOSIS=Enfoque diagnóstico
+FOCUSPRESCRIPTION=Enfoque receta
+FOCUSMEDICINE=Enfoque Medicina
+CLEARALL=Borrar todos
+CLEARSUMMARY=Borrar Resumen
+CLEARDIAGNOSIS=Borrar Diagnóstico
+CLEARPRESCRIPTION=Borrar la prescripción
+CLEARMEDICINE=Borrar Medicina
+CENTERTOP=Resumen Médico
+DIAGNOSIS=Diagnóstico
+DOCTOR=Médico
+
+@LABORATORY
+PATIENTNO=Paciente N º:
+PATIENTNAME=Nombre del paciente:
+DATEOfTEST=Fecha de la prueba:
+NAMEOfTEST=Nombre del examen:
+RESYLTSCOLLECTIONDATE=Resultados de la fecha límite de presentación:
+COST=Costo:
+ADD=Añadir
+EDIT=Editar
+DELETE=borrar
+NO=NO
+DATEOFTEST=Fecha de Prueba
+NAMEOFTEST=Nombre del examen
+RESULTSCOLLECTIONDATE=Resultados de la fecha de recogida
+COST=costo
+TESTDATE=test_date
+TESTNAME=nombreDePrueba
+DATERESULTS=date_results
+TITLELABORATORY=Laboratorio
+
+@WORK
+DEMPARTMENT=Departamento
+GRADE=Grado
+SALARY=Sueldo
+EMPLOYEESTATUS=Empleado de estado
+TRANSFERINTERDEPARTMENTAL=Traslado (Inter-departamental)
+ADMINISTRATIVE=Administrativo
+CLINICAL=Clínico
+UINT=Unidad:
+ADD=Añadir
+DELETE=Borrar
+GROUP=Grupo:
+POLICLINIC=Policlínica:
+GRADELEVEL=Grado:
+CATEGORYPOST=Categoría del puesto:
+POSITION=Cargo:
+LEVEL=Nivel:
+STEP=Paso:
+GROOSSALARY=Groos Salario:
+DATEOFFIRSTAPPOINTMENT=Fecha de la primera cita:
+STAFFTYPEATFIRSTAPPOINTMENT=Personal Tipo en la primera cita:
+GRADEATFIRSTAPPOINTMENT=Grado en la primera cita:
+DATEOFLASTPROMOTION=Fecha del último ascenso:
+SUSPENDED=Suspendido
+DISMISSED=Despedido
+RETIRED=Jubilado
+DATEOFSUSPENSION=Fecha de suspensión:
+DATEOFRESUMPTION=Fecha de la reanudación:
+REASON=Exposición de motivos:
+DATEOFDISMISSAL=Fecha de despido:
+DATEOFRETIREMENT=Fecha de jubilación:
+TODEPARTMENT=Para Departamento:
+DATEOFTRANSFER=Fecha de transferencia:
+WORKJOBPROFILE=Trabajo (Job) Perfil
+NEWSTAFFNO=Nuevo Personal No.
+EDITSTAFFNO=Edición Personal No.
+ACTIVE=Activo
+SUSPENDED=Suspendido
+DISMISSED=Despedido
+RETIRED=Jubilado
+
+@MESSAGE
+CANCEL=Cancelar
+YES=Sí
+NO=No
+CLOSE=Cerrar
+SEARCH=Búsqueda
+BACK=Cerrar
+CHECK=Verificación
+ENTER=Entrar
+SAVE=Guardar
+FILE=Expediente
+ERRORMESSAGE=Mensaje de error
+MESSAGE=Mensaje
+WARNING=Advertencia
+SAVECOMPLETE=Guardar completa
+LOADCOMPLETE=Carga completa
+DELETECOMPLETE=Eliminar completa
+MEDICINE=Medicina
+WILLCAUSE= hará que
+ALLERGY= alergia.
+CODE=Código:
+NOINFORMATION=Sin información.
+PLEASECONFIRMDIAGNOSISTABLEROW=Por favor, confirme el diagnóstico fila tabla
+PLEASECONFIRMMEDICINETABLEROW=Por favor, confirme Medicina fila de tabla
+COLUMN=columna
+ALREADYEXIST= Ya existen
+SAVECOMPLETE=Guardar completa
+WILLITBEDELETE=¿Será Eliminar
+SAVEACCESS=Acceso Guardar!
+REPEATEDLOGIN=Ingresar repetidas, vuelve a Ingresar!
+ISNODATEATALL=¿Está n los datos en todos
+ISALREADYEXIST=¿Es ya existen
+ISALLREADYEXIST=Es allready existe!
+IDENTIFICATIONNUMBER=Número de identificación debe ser de entrada!
+REGISTRATIONSUCCESSFUL=éxito de inscripción
+CANCELREGISTRATION=Anular el registro de éxito
+GIVEMOREKEYWORDS=Es necesario dar más palabras clave.
+MOREINFORMATION=Hay más información.
+KEYWORDSARETOOFEW=Las palabras clave son muy pocos, buscará durante mucho tiempo!
+AREYOUSUREYOUWANTTOCONTINUE=¿Estás seguro de que desea continuar?
+DOYOUSAVEIT=¿Usted guardarlo?
+DOYOUWANTTODELETE=¿Quieres eliminar?
+DOYOUWANTTOSAVETHECHANGE=¿Quieres guardar los cambios?
+DOYOUWANTTOCHANGETHEDATA=¿Quieres cambiar los datos?
+GPSSIGNALISDETECTED=Señal GPS se detecta:
+GPSDETECTIONOFFAILUREWHETHERTOUSETHELASTINFORMATION=GPS de detección de falla, si se utilizará la última información?
+NOTFONDGPSUSBPORTNUMBER=No se ha encontrado USB GPS Número de puerto.
+NOTFONDGPSINFORMATION=No se encuentra la información del GPS.
+YOUNEEDGIVEMOREKEYWORDS=Es necesario dar más palabras clave.
+CANYOUTAKENOUTDIAGNOSISDATALASTTIME=¿Puedes sacar los datos de diagnóstico última vez?
+

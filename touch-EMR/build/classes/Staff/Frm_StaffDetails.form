@@ -1,0 +1,452 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Employee Information"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="529" max="32767" attributes="0"/>
+              <Component id="btn_Save" min="-2" pref="100" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btn_Cancel" min="-2" pref="100" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pan_Personal_Personal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pan_Personal_Personal" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btn_Cancel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_Save" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btn_Save">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_SaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_Cancel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_CancelActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="pan_Personal_Personal">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ef" green="ef" red="f0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="pan_Fingerprint1" min="-2" max="-2" attributes="3"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel1" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="pan_Fingerprint1" min="-2" max="-2" attributes="1"/>
+                          <EmptySpace min="-2" pref="318" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pan_Fingerprint1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Fingerprint"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btn_Enroll" alignment="0" pref="108" max="32767" attributes="1"/>
+                          <Component id="fingerPrintViewer" alignment="0" pref="108" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="fingerPrintViewer" min="-2" pref="158" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_Enroll" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="cc.johnwu.finger.FingerPrintViewer" name="fingerPrintViewer">
+              <Properties>
+                <Property name="visible" type="boolean" value="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="86" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="119" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+            <Component class="javax.swing.JButton" name="btn_Enroll">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enroll"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_EnrollActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ef" green="ef" red="f0" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lab_UserId" alignment="1" min="-2" max="-2" attributes="1"/>
+                          <Component id="lab_cellphone" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_Posi" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_mail" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_PlaceOfBirth" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_DateOfBirth" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_No" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_Group" alignment="1" min="-2" max="-2" attributes="1"/>
+                          <Component id="lab_FirstName" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_LastName" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_HssNo" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_Confirmation" alignment="1" min="-2" max="-2" attributes="1"/>
+                          <Component id="lab_PassWord" alignment="1" min="-2" max="-2" attributes="1"/>
+                          <Component id="lab_ToDepartment" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_FirstName" alignment="0" pref="329" max="32767" attributes="3"/>
+                          <Component id="cob_Administrative" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="cob_Permission" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="dateChooser_PersonalDateBirth" alignment="0" min="-2" max="-2" attributes="1"/>
+                          <Component id="txt_LastName" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="txt_PlaceOfBirth" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="txt_No" alignment="0" min="-2" pref="115" max="-2" attributes="1"/>
+                          <Component id="cob_Poli" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="txt_HssNo" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="pwd_PassWord" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="pwd_Confirmation" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="txt_Email" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="txt_CellPhone" alignment="0" pref="329" max="32767" attributes="1"/>
+                          <Component id="txt_UserId" alignment="0" pref="329" max="32767" attributes="3"/>
+                      </Group>
+                      <EmptySpace pref="78" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_No" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_No" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txt_LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lab_LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dateChooser_PersonalDateBirth" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lab_DateOfBirth" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_PlaceOfBirth" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_PlaceOfBirth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_HssNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_HssNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_UserId" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_UserId" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="pwd_PassWord" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_PassWord" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="pwd_Confirmation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_Confirmation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_Email" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_mail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_CellPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_cellphone" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cob_Administrative" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_Posi" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cob_Permission" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_Group" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cob_Poli" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lab_ToDepartment" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="txt_FirstName">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_FirstNameKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_UserId">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="* User ID :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cob_Administrative">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cob_Permission">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cob_PermissionActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_cellphone">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Contact Number :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_Posi">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Position of Staff :"/>
+              </Properties>
+            </Component>
+            <Component class="cc.johnwu.date.DateComboBox" name="dateChooser_PersonalDateBirth">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_mail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email Address :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_LastName">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_LastNameKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_PlaceOfBirth">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_PlaceOfBirth">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Place of Birth :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_DateOfBirth">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Date of Birth :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_No">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="00000000"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_Group">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Permmision Group :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_No">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Staff No. :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cob_Poli">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_ToDepartment">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Depart/Clinic:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_FirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="* First Name :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_LastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="* Last Name :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_HssNo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="HSS NO. :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_HssNo">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_HssNoKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="pwd_PassWord">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="pwd_PassWordKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="pwd_Confirmation">
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="pwd_ConfirmationKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_Email">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_Confirmation">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="* Confirmation :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_CellPhone">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lab_PassWord">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="* Password :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_UserId">
+              <Events>
+                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txt_UserIdFocusLost"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_UserIdKeyReleased"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

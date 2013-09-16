@@ -1,0 +1,849 @@
+﻿@SETTINGMYSQL
+HOST=Host:
+PORT=Port:
+DATABASE=Database:
+PASSWORD=Password:
+USERNAME=User Name:
+
+@ONLINESTATE
+WARNING=Warning! Repeat To Login.
+
+@MAIN
+MAIN=Main
+REGISTRA=Registra
+DOCTOR=Clinic
+ANAMNESIS=Anamnesis
+PERSONAL=Personal Management
+PHARMACY=Pharmacy
+MANAGEMENT=System Management
+PERMISSION=Permission
+MEDICINE_STOCK=Medicine Stock
+MEDICAL HISTORYT=Medical History
+POSITION_MANAGEMENT=Position Management
+DEPARTMENT_MANAGEMENT=Department Management
+SHIFT_MANAGEMENT=Shift Management
+STAFF_MANAGEMENT=Staff Management
+ANAMNESIS_RETURN=Anamnesis Return
+ANAMNESIS_MANAGEMENT=Anamnesis Management
+PATIENT_INFORMATION=Patient Information
+DIAGNOSIS=Diagnosis
+REGISTRATION=Registration
+REVIEW=Review
+EXIT=Exit
+LABORATORY=Laboratory
+INVESTGATIONS=Investgations
+RADIOLOGY(X-RAY)=X-RAY
+
+@RADIOLOGY
+NO=No
+DATEOFINVESFIGATION=Date of Invesfigation
+NAMEOFINVESFIGATION=Name of Invesfigation
+RESULTSCOLLECTIONDATE=Results collection date
+COST=Cost:
+INVESFIGATIONDATE=invesfigation_date
+INVESFIGATIONNAME=invesfigation_name
+DATERESULTS=date_results
+DELETE=Delete
+EDIT=Edit
+ADD=Add
+PATIENTNO=Patient No. :
+PATIENTNAME=Patient Name :
+DATEOFINVESFIGATION=Date of Invesfigation :
+NAMEOFTEST=Name of Test :
+RESULTSCOLLECTIONDATE=Results collection date :
+COST=Cost
+TITLERADIOLOGY=Radiology
+TITLERADIOLOGYPATIENTSSEARCH=Radiology - Patients Search
+
+@REGISTRATION
+TITLEPNO=Chart ID :
+TITLENHISNO=NHIS No:
+TITLENIANO=NIA No:
+TITLEID=ID Number :
+TITLEFIRSTNAME=First Name :
+TITLELASTNAME=Last Name :
+TITLEBIRTHDAY=Birthday :
+TITLEAGE=Age :
+TITLEGENDER=Gender :
+TITLEBLOODTYPE=Bloodtype :
+TITLEHEIGHT=Height :
+TITLEWEIGHT=Weight :
+TITLEVISITS=Registered Method :
+TITLESHIFTDATE=Date :
+TITLEPOLICLINIC=Policlinic :
+TITLESHIFT=Shift :
+TITLEDOCTORNAME=Doctor :
+TITLEROOM=Room's Name :
+TITLEWAITNO=Waiting No :
+TITLESEARCHDOCTORS=Doctors :
+TITLESEARCHPATIENT=Patient :
+PATIENTNAME=Patient Name :
+DATE=Date :
+CANCELREGISTRATION=Cancel Registration
+CANCEL=Cancel
+NEWPATIENT=Add Patient
+SAVE=Register
+FINGERPRINTSEARCH=Search...
+REGISTEREDLIST=Registered List
+REISTER=Locality
+PATIENTLIST=Patient List
+REGISTRATIONRECORD=Registration Record
+PORT=Port:
+GPSADDRESS=GPS Address:
+COUNTRY=Country:
+STATE=State
+TOWN=Town
+DEFAULT=Default
+READ=Read
+SAVEGIS=Save
+DOCTORLIST=Doctor List
+PATIENTLIST=Patient List 
+REGISTRATIONRECORD=Registration Record
+COL_PATIENTNO=Patient NO
+COL_NAME=Name
+COL_GENDER=Gender
+COL_AGE=Age
+COL_BLOODTYPE=BloodType
+COL_PNO=PNO
+COL_NAME=Name
+COL_POLICLINIC=Policlinic
+COL_DOCTOR=Doctor
+COL_SHIFT=Shift
+TITLEREQISTRATION=Registration
+TITLGPSINFORMATION=Gps Information
+ALL=All
+MORNING=Morning
+AFTERNOON=Afternoon
+NIGHT=Night
+RESERVATION=Reservation
+LOCALITY=Locality
+
+@EMPLOYEE
+PERSONAL=Personal
+CONTACTDETAILS=Contact Details	
+FAMILYINFORMATION=Family Information
+SPOUSE=Spouse
+CHILDREN=Children
+NEXTOFKIN=Next of kin
+FINGERPRINT=Fingerprint
+STAFFNO=Staff No. :
+HSSNO=HSS NO. :
+SOCIALSECURITYNO=Social Security No. :
+NATIONALID=National ID:
+NHISNO=NHIS No. :
+PASSPORTNO=Passport No. :
+USERID=User ID :
+PASSWORD=Password :
+CONFIRMATION=Confirmation :
+FIRSTNAME=First Name :
+SEX=Sex :
+DATAOFBIRTH=Date of Birth :
+MARITALSTATUS=Marital Status :
+DISABILITYDESCRIPITION=Disability Description :
+LASTNAME=Last Name :
+BLOODRH=Blood/RH :
+PLACEOFBIRTH=Place of Birth :
+DISABILITYSTAUSE=Disability Status :
+CANCLE=Cancle
+RESIDENTIALADDRESS=Residential Address :
+POSTALADDRESS=Postal Address :
+PHONENUMBER=Phone Number :
+CELLPHONENUMBER=Cell Phone Number :
+EMAIL=E - Mail :
+PERSONALWEBSITE=Personal Website :
+FIRSTNAMEOFSPOUSE=Firstname of spouse :
+LANSTNAMEOFSPOUSE=Lastname of spouse :
+SPOUSESDATAOFBIRTH=Spouse's date of birth :
+SPOUSESNHISNO=Spouse's NHIS No. :
+STAFFTYPE=Staff Type :
+STAFFCATEGORY=Staff Category :
+FULLNAME=Full name :
+ADD=Add
+DELETE=Delete
+EMPLOYEEINFORMATION=Employee Information
+UPDATASTAFFPOSITION=Updata Staff Position
+RENAME=Rename
+NEWSTAFFNO=New Staff NO.
+EDITSTAFFNO=Edit Staff NO.
+SINGLE=Single
+MARRIED=Married
+NO=No
+YES=Yes
+ENROLL=Enroll
+JUNIORSTAFF1=Junior Staff 1
+JUNIORSTAFF2=Junior Staff 2
+SENIORSTAFF=Senior Staff
+PERMANENT=Permanent
+CONTRACT=Contact
+TRAININGATTACHMENT=Training/Attachment
+SUPPORT=Support
+NATIONALYOUTHEMPLOYEE=National Youth Employee
+CASUALWORKER=Casual Worker
+HOUSEJOB1=House Job 1
+HOUSEJOB2=House Job 2
+
+@LOGIN
+ID=ID:
+PASSWD=Password:
+LOGIN=Login
+WELCOME=Welcome
+LOGINFAILED=Login Failed.
+
+@PERMISSIONNEWDATA
+GROUPNAME=Permission Name
+
+@PERMISSIONINFO
+NEWLIMIT=Add
+BACK=Back
+UPDATE=Edit
+DELETEGROUP=Delete
+GROUP=Permissions Group
+SYSTEM=System
+LNQUIRY=Lnquiry
+ADD=Add
+DELETE=Delete
+ALL=All
+SAVE=Save
+CLOSE=Close
+GROUPNAME=Group Name :
+TITLEPERMISSION=Permission
+TITLEADDPERMISSION=Add Permission
+
+@PHARMACY
+USERNAME=User
+FOLLOW=Follow Latest
+FINISH=Number Of People
+INQUIREMEDICINE=Used Medicine
+SEARCH=History Record
+REPRINT=Reprint
+TITLEPHARMACY=Pharmacy
+NO=No.
+PATIENTNO=Patient No.
+NAME=Name
+BIRTH=Birth
+GENDER=Gender
+PS=P.S.
+DOCTOR=Doctor
+BLOOD=Blood
+TIME=Time
+
+@PHARMACYINFO
+TITLENO=ID :
+TITLENAME=Name :
+TITLESEX=Gender :
+TITLEBLOODTYPE=Blood Type :
+TITLEAGE=Birth :
+DOCTOR=Doctor :
+DEPARTMENT=Deparment :
+TITLEPS=PS :
+CODE=Code
+NAME=Name
+DOSAGE=Dosage
+UNIT=Unit
+USAGE=Usage
+WAY=Way
+DAY=Day
+QUANTITY=Quantity
+URGENT=Urgent
+POWDER=Powder
+PS=P.S.
+TITLEMEDICINEINFORMATION=Medicine Information
+
+@PHARMACYINQUIRE
+TITLEHISTORYRECORD=History Record
+MORNING=Morning
+NOON=Noon
+AFTERNOON=Afternoon
+NO=No.
+NAME=Name
+BIRTH=Birth
+GENDER=Gender
+PS=P.S.
+POLI=Poli
+DOCTOR=Doctor
+BLOOD=Blood
+TIME=Time
+
+@PHARMACYINQUIREMEDICINE
+TOTAL=Total Quantity
+LABEL=Medicine :
+TITLEUSEDMEDICINE=Used Medicine
+DATE=Date
+MEDICINE=Medicine
+DOCTOR=Doctor
+PATIENT=Patient
+QUANTITY=Quantity
+
+@CHECK
+DATA=Data obtained
+
+@PATIENTMOD
+TITLENO=Patient No :
+TITLEFIRSTNAME=First Name :
+TITLELASTNAME=Last Name :
+TITLEID=ID No :
+TITLEGENDER=Gender :
+TITLEBIRTH=BirthDay :
+TITLEBLOODTYPE=Blood/RH :
+TITLEHEIGHT=Height :
+TITLEWEIGHT=Weight :
+DEAL=Dead
+BUTTON2=Diagnostic
+BUTTON1=Allergy
+TITLEEMEFIRSTNAME=First Name :
+TITLEEMELASTNAME=Last Name :
+TITLEEMERELATION=Relation :
+TITLEEMECPTOWN=Town :
+TITLEEMEADDRESS=Address :
+TITLEEMEPHONE=Phone :
+TITLEEMESTATE=State :
+TITLEEMECOUNTRY=Country :
+TITLEPHONE1=Phone1 :
+TITLEPHONE2=Phone2 :
+TITLETOWN=City/Town :
+TITLESTATE=State :
+COUNTRY=Country :
+TITLEADDRESS=Address :
+PS=P.S.
+ENROLL=Enroll
+OK=Save
+CANCEL=Cancel
+RIGHT=Contact Person
+LEFT=Patient Information
+PANEL=Fingerprint
+DEATHTIME=Death time：
+NHISNO=NHIS No. :
+NIANO=NIA No. :
+PLACEOFBIRTH=Place Of Birth :
+MARITALSTATUS=Marital Status :
+OCCUPATION=Occupation :
+TRIBE=Tribe :
+RELIGION=Religion :
+LANGUAGE=Language :
+PATIENTINFRMATION=Patient Infrmation
+CONTRACTPERSON=Contact Person
+TITLENEWPATIENT=New Patient
+NEWPATIENTDATA=New Patient Data
+EDITPATIENTDATA=Edit Patient Data
+MARRIED=Married
+DIVORCED=Divorced
+SINGLE=Single
+OTHER=Other
+
+@PATIENTSLIST
+ADD=Add
+EDIT=Details
+DELETE=Delete
+TITLELABORATORYPATIENTSSEARCH=Laboratory - Patients Search
+TITLEPATIENTLIST=Patient List
+FINGERPRINTSEARCH=Search...
+ITTOOK=It took
+NOTFOUND=Not Found.
+ALL=All
+NAME=Name
+BIRTH=Birth
+IDNO=ID No.
+PHONE=Phone
+TOWN=Town
+ADDRESS=Address
+COL_NO=No
+COL_NAME=Name
+COL_BIRTH=Birth
+COL_PHONE=Phone
+COL_CELLPHONE=Cell Phone
+COL_TOWN=Town
+COL_ADDRESS=Address
+NO=NO.
+NHISNO=NHIS NO.
+NIANO=NIA NO.
+PHONE=Phone
+MESSAGE=Message
+PLEASESEARCHPATIENTDATA=Please Search Patient Data.
+ENTER=Enter
+NOINFORMATION=No Information
+
+@ANAMNESIS
+TITLEMEDICALHISTORY=Medical History
+LABEL=User :
+POLICLINIC=Policlinic :
+POLIROOM=Room's Name :
+LEAVE=Close
+BORROWSAVE=Borrow
+RETURNSAVE=Return
+CHATID=Chat ID
+BIRTH=Birth
+ROOMSNAME=Room Name
+SHIFT=Shift
+NAME=Name
+DEPARTMENT=Department
+DOCTOR=Doctor
+CHECK=Check
+
+@LEAVE
+ENTITLEMENT=Entitlement :
+TYPE=Type :
+STARTDATE=Start date :
+ENDDATE=End date :
+NUMBEROFDAYSTAKEN=Number of days taken :
+NUMBEROFDAYSREMAINING=Number of days remaining :
+LEAVEEDITSTAFFNO6=Leave (Edit Staff No.6)
+21WORKINGDAYS=21 working days/year(junior Staff 1)
+28WORKINGDAYS=28 working days/year(junior Staff 2)
+36WORKINGDAYS=36 working days/year(Senior Staff)
+STUDYLEAVEWITHPAY=Study leave with pay
+STUDYLEAVEWITHOUTPAY=Study leave without pay
+LEAVEWITHPAY=Leave with pay
+MATERNITYLEAVE=Maternity leave
+PATERNITYLEAVE=Paternity Leave
+LEAVEWITHOUTPAY=Leave without pay
+
+@SHIFTWORKINFO
+POLICLINIC=Policlinic :
+POLROOM=Room :
+YEAR=Year :
+MONTH=Month :
+RELOAD=Re-read
+MON=Mon
+TUE=Tue
+WED=Wed
+THU=Thu
+FRI=Fri
+SAT=Sat
+SUN=Sun
+WEEK=Week
+DATE=Date
+MORNING=Morning
+NOON=Noon
+NIGHT=Night
+ALLNIGHT=All Night
+TITLESHIFTWORK=Shift Work
+
+@ADDMOD
+LEAVE=Cancel
+POSSAVE=Add
+DEPSAVE=Add
+NEWDEPARTMENTNAME=New Department Name:
+NEWPOSITIONNAME=New Position Name:
+NEWSTAFF=New Staff
+
+@ADMINISTRATIVE
+EMPNAME=Name Of Employer :
+EMPPOSITION=position :
+EMPCOMMENCEMENTDATE=Commencement Date :
+EMPLEAVINGDATE=Leaving Date :
+EMPHISTORYADD=Add
+EMPHISTORYDELETE=Delete
+NO=No
+NAMEOFEMPLOYER=Name Of Employer
+POSITION=position
+COMMENCEMENTDATE=Commencement Date
+LEAVINGDATE=Leaving Date
+EMPLOYERNAME=Employer Name
+COMMENCEMENTDATE=Commencement Date
+LEAVINGDATE=Leaving_Date
+ADMINISTRATIVEPROFILE=Administrative Profile
+NEWSTAFFNO=New Staff No.
+EDITSTAFFNO=Edit Staff No.
+
+@DEPARTMENT
+DEPNEWDATA=Add
+DEPUPDATE=Edit Name
+STAFFDEPUPDATA=Edit Department
+STAFFPOSIUPDATA=Edit Position
+DEPDEL=Delete
+TITLEDEPARTMENT=Department Management
+TITLESTAFFPOSITION=Position Management
+POSITIONNAME=Position Name
+DEPARTMENTNAME=Department Name
+MESSAGE=Message
+NOINFORMATION=No Information.
+
+
+@DEPARTMENTADD
+ORIGINALDEP=Department
+CHANGEDEP=Department
+LEAVE=Close
+ADDSTAFFDEPARTMENT=Add Staff Department
+
+@POSITIONADD
+ORIGINALDEP=Position Title
+CHANGEDEP=Position Title
+LEAVE=Leave
+ADDSTAFFPOSITION=Add Staff Position
+
+@TRAINING
+TITLETRAININGEDITSTAFFNO6=Training (Edit Staff No.6))
+TYPE=Type :
+SPONSORSHIP=Sponsorship :
+NAMEOFINSTITUTION=Name of Institution :
+STARTDATE=Start date :
+ENDDATE=End date :
+COURSENAME=Course Name :
+EXPECTEDQUALIFICATION=Expected qualification :
+COUNTRY=Country :
+COMMITMENT=Commitment :
+RESUMPTIONDATE=Resumption Date :
+PRESERVICE=Pre-Service
+INSERVICE=In-Service
+POSTBASIC=Post Basic
+SELFSPONSORED=Self sponsored
+KBTHSPONSORED=KBTH sponsored
+PARTTIME=Part-time
+FULLTIME=Full-time
+
+
+@HRM
+HRMSYSTEM=HRM System
+EMPLOYEEINFORMATION=Employee Information
+EDUCATIONALPROFILE=Educational  Profile
+WORKJOBPROFILE=Work(Job) Profile
+ADMINISTRATIVEPROFILE=Administrative Profile
+TRAINING=Training
+LEAVE=Leave
+BACK=Back
+NEWSTAFFNO=New Staff No.
+EDITSTAFFNO=Edit Staff No.
+
+@STAFFCHANGE
+NOTITLE=ID NO.
+FIRSTNAME=FirstName :
+IDNUM=ID Number :
+BIRTH=Date of birth :
+GROUP=Group :
+POLI=Clinic :
+ACCOUNT=User ID :
+PASSWORD=Passwd :
+CHECKPASSWORD=Confirmation :
+PHONE1=Phone1 :
+PHONE2=Phone2 :
+TOWN=Town :
+STATE=State :
+ADDRESS=Address :
+LASTNAME=LastName :
+GENDER=Gender :
+DEPARMENT=Department :
+POSITION=Title :
+ADDSAVE=Add
+UPDATE=Update
+UPDATESAVE=Save
+
+@STAFFINFO
+STAFFINFOMATION=Staff Infomation
+GENERALADD=Add
+GENERALEDIT=Details
+GENERALDELETE=Delete
+GENERALBACK=Close
+GENERAL=General
+DOCTOR=Doctor
+NO=No
+NAME=Name
+BIRTH=Birth
+PHONE=Phone
+CELLPHONE=Cellphone
+ADDRESS=Address
+DEPNAME=Dep Name
+WILLITBEDELETENO=Will It Be Delete No.: 
+SEARCH=Search...
+ITTOOK=It Took
+NOTFOUND=Not Found.
+ALL=All
+NEWSTAFFNO=New Staff No.
+EDITSTAFFNO=Edit Staff No.
+
+@EDUCATIONAL
+ACADEMICRECORDINSTITUTIONATTENDED=Name of institution attended :
+ACADEMICRECORDCOMMENCEMENTDATE=Commencement date :
+ACADEMICRECORDCOMPLETIONDATE=Completion date :
+ACADEMICRECORDQUALIFICATIONATTAINED=Qualification attained :
+ACADEMICRECORDADD=Add
+ACADEMICRECORDDELETE=Delete
+CANCEL=Cancle
+EDUCATIONALPROFILEEDITSTAFFNO6=Educational profile (Edit Staff No.6)
+NO=NO
+NAMEOFINSTITUTIONATTENDED=Name of institution attended
+COMMENCEMENT=Commencement date
+COMPLETIONDATE=Completion date
+QUALIFICATIONATTAINED=Qualification attained
+NAME=Name
+COMMENCEMENTDATE=commencement_date
+COMPLETIONDATE=completion_date
+QUALIFICATION=qualification
+NOINFORMATION=No Information.
+
+@MEDICINESTOCKPURCHASE
+MEDICINENAME=Medicine :
+DATE=Date :
+COMPANY=Company :
+QUANTITY=Quantity :
+PRICE=Price :
+DELETE=Delete
+ADD=Add
+SEND=Send
+MEDICINE=Medicine
+DRUGGIST=Druggist
+QUANTITY=Quantity
+DATE=Date
+PRICE=Price
+TITLEMEDICINEPURCHASE=Medicine Purchase
+
+@MEDICINESTOCKPURCHASELIST
+QUANTITY=Quantity :
+COAST=Cost :
+
+@MIDICINESTOCKINFO
+PURCHASE=Purchase
+MORE=More
+TITLEPURCHASELIST=Purchase List
+
+@DIAGNOSISALLERGY
+TITLENO=Chart ID :
+TITLENAME=Name :
+NEW=Add
+ADD=Add
+BACK=Back
+TITLEALLERQY=Allergy
+LEVEL=Level
+MEDICINE=Medicine
+SLIGHT=Slight
+GENERAL=General
+SERIOUS=Serious
+DELETE=Delete
+
+@DIAGNOSISWORKLIST
+PRINT=Print
+NAME=Doctor :
+WAIT=Await :
+POLI=Department :
+FINISH=Finish :
+COL_NO=NO.
+COL_REGISTER=Register
+COL_FIRST=First
+COL_VISITS=Visits
+COL_REGTIME=Reg time
+COL_PATIENTNO=Patient No.
+COL_NAME=Name
+COL_BIRTH=Birth
+COL_GENDER=Gender
+COL_BLOOD=Blood
+COL_PS=P.S.
+TITLEWORKLIST=Work List
+EDIT=Edit
+ENTER=Enter
+
+@DIAGNOSISTHERAPY
+THERAPY=Diagnosis
+TITLETHERAPY=Therapy
+FILE=File
+ICDCODE=ICD Code
+NAME=Name
+VERSION=Version : ICD 10
+
+@DIAGNOSISPRESRIPTION
+TITLEPRESCRIPTION=Prescription
+THERAPY=Prescription
+VERSION=Version : TEST
+CODE=Code
+TREATMENT=Treatment
+
+@DIAGNOSISMEDICINE
+THERAPY=Medicine
+TITLEMEDICINE=Medicine
+TITLEPRESCRIPTION=Prescription
+ITEM=Item
+INJECTION=Information
+BACK=Close
+VISION=Version : TEST
+GENERAL=General
+
+@DIAGNOSISDIAGNOSTIC
+TITLENO=Chart ID :
+TITLENAME=Name :
+POLICLINIC=Policlinic :
+PS=P.S.
+INSERT=Take Out
+TITLEDIAGNOSTIC=Diagnostic
+DATE=Date
+SHIFT=Shift
+DEPARTMENT=Department
+NAME=Name
+ICDCODE=ICD Code
+CODE=Code
+MEDICINE=Medicine
+SUBUSAGE=Sub Usage
+UNIT=Unit
+WAY=Way
+ROUTE=Route
+DAY=Day
+QUANTITY=Quantity
+URGENT=Urgent
+POWDER=Powder
+PS=P.S.
+
+@DIAGNOSISINFO
+TITLEDIAQNOSISINFO=DiagnosisInfo
+TITLENO=Chart ID :
+TITLENAME=Name :
+HEIGHT=Height :
+TITLEPS=P.S.
+TITLESEX=Gender :
+TITLEAGE=Age :
+TITLEBLOODTYPE=Blood type :
+WEIGHT=Weight :
+PS=P.S.
+MEDICALRECORDSUMMARY=Medical Record Summary
+DIAGNSIS=Diagnosis
+MEDICINE=Medicine
+PRESCRIPTION=Prescription
+CODE=Code
+DIAGNOSIS=Diagnosis
+TREATMENT=Treatment
+PLACE=Place
+MEDICINE=Medicine
+NAME=Name
+SUBUSAGE=Sub usage
+UNIT=Unit
+FREG=Freg
+ROUTE=Route
+DAY=Day
+QUANTITLY=Quantity
+URGENT=Urgent
+POWDER=Psdsd
+DIAGNOSIS=Diagnosis Code
+PRESCRIPTIONCODE=Prescription Code
+MEDICINECODE=Medicine Code
+CASEHISTORY=Case History
+ALLERGY=Drug Allergy
+SEND=Send
+FILE=File
+DIAGNOSISCODE=Diagnosis Code
+MEDICINECODE=Medicine Code
+CASEHISTORY=Case History
+DRUGALLERGY=Drug Allergy
+SEND=Send
+BACK=Back
+EDIT=Edit
+FOCUDSUMMARY=Focus Summary
+FOCUSDIAGNOSIS=Focus Diagnosis
+FOCUSPRESCRIPTION=Focus Prescription
+FOCUSMEDICINE=Focus Medicine
+CLEARALL=Clear All
+CLEARSUMMARY=Clear Summary
+CLEARDIAGNOSIS=Clear Diagnosis
+CLEARPRESCRIPTION=Clear Prescription
+CLEARMEDICINE=Clear Medicine
+
+CENTERTOP=Medical Record Summary
+DIAGNOSIS=Diagnosis
+DOCTOR=Doctor
+
+@LABORATORY
+PATIENTNO=Patient No. :
+PATIENTNAME=Patient Name :
+DATEOfTEST=Date of Test :
+NAMEOfTEST=Name of Test :
+RESYLTSCOLLECTIONDATE=Results collection date :
+COST=Cost :
+ADD=Add
+EDIT=Edit
+DELETE=Delete
+NO=NO
+DATEOFTEST=Date of Test
+NAMEOFTEST=Name of Test
+RESULTSCOLLECTIONDATE=Results collection date
+COST=Cost :
+TESTDATE=test_date
+TESTNAME=test_name
+DATERESULTS=date_results
+TITLELABORATORY=Laboratory
+
+@WORK
+DEMPARTMENT=Department
+GRADE=Grade
+SALARY=Salary
+EMPLOYEESTATUS=Employee status
+TRANSFERINTERDEPARTMENTAL=Transfer(Inter-departmental)
+ADMINISTRATIVE=Administrative
+CLINICAL=Clinical
+UINT=Unit :
+ADD=Add
+DELETE=Delete
+GROUP=Group :
+POLICLINIC=Policlinic :
+GRADELEVEL=Grade Level :
+CATEGORYPOST=Category Post :
+POSITION=Position :
+LEVEL=Level :
+STEP=Step :
+GROOSSALARY=Groos Salary :
+DATEOFFIRSTAPPOINTMENT=Date of first appointment :
+STAFFTYPEATFIRSTAPPOINTMENT=Staff Type at first appointment :
+GRADEATFIRSTAPPOINTMENT=Grade at first appointment :
+DATEOFLASTPROMOTION=Date of last promotion :
+SUSPENDED=Suspended
+DISMISSED=Dismissed
+RETIRED=Retired
+DATEOFSUSPENSION=Date of suspension :
+DATEOFRESUMPTION=Date of resumption :
+REASON=Reason :
+DATEOFDISMISSAL=Date of dismissal :
+DATEOFRETIREMENT=Date of retirement :
+TODEPARTMENT=To Department :
+DATEOFTRANSFER=Date of transfer :
+WORKJOBPROFILE=Work(Job) Profile
+NEWSTAFFNO=New Staff No.
+EDITSTAFFNO=Edit Staff No.
+ACTIVE=Active
+SUSPENDED=Suspended
+DISMISSED=Dismissed
+RETIRED=Retired
+
+@MESSAGE
+CANCEL=Cancel
+YES=Yes
+NO=No
+CLOSE=Close
+SEARCH=Search
+BACK=Close
+CHECK=Check
+ENTER=Enter
+SAVE=Save
+FILE=File
+ERRORMESSAGE=Error Message
+MESSAGE=Message
+WARNING=Warning
+SAVECOMPLETE=Save Complete
+LOADCOMPLETE=Load Complete
+DELETECOMPLETE=Delete Complete
+MEDICINE=Medicine 
+WILLCAUSE= will cause 
+ALLERGY= allergy.
+CODE=Code :
+NOINFORMATION=No Information.
+PLEASECONFIRMDIAGNOSISTABLEROW=Please confirm Diagnosis table row 
+PLEASECONFIRMMEDICINETABLEROW=Please confirm Medicine table row 
+COLUMN=column 
+ALREADYEXIST= Already Exist
+SAVECOMPLETE=Save Complete
+WILLITBEDELETE=Will It Be Delete 
+SAVEACCESS=Save Access!!
+REPEATEDLOGIN=Repeated Login, Please Re-Login!!
+ISNODATEATALL=Is No Data At All
+ISALREADYEXIST=Is Already Exist
+ISALLREADYEXIST=Is Allready Exist !!
+IDENTIFICATIONNUMBER=Identification Number Must Be Input !!
+REGISTRATIONSUCCESSFUL=Registration successful
+CANCELREGISTRATION=Cancel Registration Success
+GIVEMOREKEYWORDS=You need give more keywords.
+MOREINFORMATION=There have more information.
+KEYWORDSARETOOFEW=Keywords are too few, will search for a long time!
+AREYOUSUREYOUWANTTOCONTINUE=Are you sure you want to continue?
+DOYOUSAVEIT=Do You Save It?
+DOYOUWANTTODELETE=Do You Want To Delete? 
+DOYOUWANTTOSAVETHECHANGE=Do You Want To Save The Change?
+DOYOUWANTTOCHANGETHEDATA=Do You Want To Change The Data?
+GPSSIGNALISDETECTED=GPS Signal Is Detected: 
+GPSDETECTIONOFFAILUREWHETHERTOUSETHELASTINFORMATION=GPS Detection Of Failure, Whether To Use The Last Information?
+NOTFONDGPSUSBPORTNUMBER=Not Found GPS USB Port Number.
+NOTFONDGPSINFORMATION=Not Found GPS Information.
+YOUNEEDGIVEMOREKEYWORDS=You need give more keywords.
+CANYOUTAKENOUTDIAGNOSISDATALASTTIME=Can you taken out Diagnosis data last time?
